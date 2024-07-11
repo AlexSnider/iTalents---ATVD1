@@ -39,7 +39,7 @@ exemplos.forEach((exemplo) => {
   // percorre cada objeto (exemplo) do array.
   const resultado = calcularIMC(exemplo.peso, exemplo.altura); // constante (resultado) para o calculo do IMC e a sua classificação.
   console.log(
-    `Peso: ${exemplo.peso}kg, Altura: ${exemplo.altura}m -> IMC: ${resultado.imc}, Classificação: ${resultado.classificacao}`
+    `Peso: ${exemplo.peso}kg, Altura: ${exemplo.altura}m -> IMC: ${resultado.calc}, Classificação: ${resultado.classificacao}`
   ); // imprime o calculo do IMC e a sua classificação usando `template literals`.
 });
 
