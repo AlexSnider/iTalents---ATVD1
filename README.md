@@ -30,6 +30,7 @@ Este projeto contém um script para calcular o Índice de Massa Corporal (IMC) e
    ```sh
    git clone https://github.com/AlexSnider/iTalents-ATVD1
    cd iTalents-ATVD1
+   node script.js
    
 3. **Testes**
    - O script script.js inclui exemplos de teste para a função de cálculo do IMC.
